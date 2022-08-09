@@ -30,7 +30,6 @@ public class Principal extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         usuario = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         error = new javax.swing.JLabel();
         aceptar = new javax.swing.JButton();
@@ -46,7 +45,7 @@ public class Principal extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 547, 112);
+        jLabel2.setBounds(180, 0, 200, 90);
 
         usuario.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         getContentPane().add(usuario);
@@ -56,14 +55,10 @@ public class Principal extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(160, 130, 250, 90);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cinta.png"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 380, 547, 28);
-
         jLabel4.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
         jLabel4.setText("Contraseña:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(30, 240, 120, 25);
+        jLabel4.setBounds(30, 240, 120, 24);
 
         error.setBackground(new java.awt.Color(255, 255, 255));
         error.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
@@ -85,7 +80,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
         jLabel6.setText("B I E N V E N I D O");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(180, 110, 210, 25);
+        jLabel6.setBounds(180, 110, 210, 24);
 
         pass.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         getContentPane().add(pass);
@@ -98,7 +93,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
         jLabel7.setText("Usuario:");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(60, 170, 90, 25);
+        jLabel7.setBounds(60, 170, 90, 24);
 
         mensaje.setForeground(new java.awt.Color(255, 0, 0));
         getContentPane().add(mensaje);
@@ -191,7 +186,6 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel error;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;

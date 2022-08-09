@@ -64,7 +64,6 @@ public class ultimosCambios extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         error = new javax.swing.JLabel();
         aceptar = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
@@ -79,11 +78,7 @@ public class ultimosCambios extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 547, 112);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cinta.png"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 380, 547, 28);
+        jLabel2.setBounds(170, 0, 200, 112);
 
         error.setBackground(new java.awt.Color(255, 255, 255));
         error.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
@@ -105,7 +100,7 @@ public class ultimosCambios extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
         jLabel6.setText("U L T I M O S   M O V I M I E N T O S");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(70, 110, 410, 25);
+        jLabel6.setBounds(70, 110, 410, 24);
 
         tabla.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -193,7 +188,6 @@ public class ultimosCambios extends javax.swing.JFrame {
     private javax.swing.JButton aceptar;
     private javax.swing.JLabel error;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel mensaje;

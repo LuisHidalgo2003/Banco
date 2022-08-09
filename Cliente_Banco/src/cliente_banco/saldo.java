@@ -36,7 +36,6 @@ public class saldo extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         saldo = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         error = new javax.swing.JLabel();
         aceptar = new javax.swing.JButton();
@@ -48,7 +47,7 @@ public class saldo extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 547, 112);
+        jLabel2.setBounds(170, 0, 200, 112);
 
         saldo.setFont(new java.awt.Font("Century Gothic", 1, 36)); // NOI18N
         saldo.setForeground(new java.awt.Color(255, 0, 0));
@@ -60,14 +59,10 @@ public class saldo extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(160, 190, 250, 90);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cinta.png"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 380, 547, 28);
-
         jLabel4.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
         jLabel4.setText("S U  S A L D O  E S:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(180, 160, 250, 25);
+        jLabel4.setBounds(180, 160, 250, 24);
 
         error.setBackground(new java.awt.Color(255, 255, 255));
         error.setFont(new java.awt.Font("Euphemia", 1, 18)); // NOI18N
@@ -87,7 +82,6 @@ public class saldo extends javax.swing.JFrame {
         aceptar.setBounds(200, 290, 170, 50);
 
         mensaje.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        mensaje.setForeground(new java.awt.Color(0, 0, 0));
         getContentPane().add(mensaje);
         mensaje.setBounds(20, 350, 270, 20);
 
@@ -142,7 +136,6 @@ public class saldo extends javax.swing.JFrame {
     private javax.swing.JLabel error;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel mensaje;
     private javax.swing.JLabel saldo;

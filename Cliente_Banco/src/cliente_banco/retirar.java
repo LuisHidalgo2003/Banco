@@ -87,7 +87,6 @@ public class retirar extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         cancelar = new javax.swing.JButton();
@@ -103,11 +102,7 @@ public class retirar extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 547, 112);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cinta.png"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 380, 547, 28);
+        jLabel2.setBounds(170, 0, 200, 112);
 
         jButton4.setBackground(new java.awt.Color(0, 204, 204));
         jButton4.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
@@ -156,7 +151,7 @@ public class retirar extends javax.swing.JFrame {
 
         mensaje.setText("U S U A R I O: ");
         getContentPane().add(mensaje);
-        mensaje.setBounds(30, 340, 180, 16);
+        mensaje.setBounds(30, 340, 180, 14);
 
         jButton7.setBackground(new java.awt.Color(0, 204, 204));
         jButton7.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
@@ -261,7 +256,6 @@ public class retirar extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel mensaje;
     // End of variables declaration//GEN-END:variables
 }
